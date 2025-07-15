@@ -1,11 +1,11 @@
-# currency-exchange-api
+# coinverter-api
 
 This API can store any currency listed on [ISO-4217](https://pt.wikipedia.org/wiki/ISO_4217).
 You can make a CRUD using the route `/api/currency`, and get a list based on what you stored
 using `/api/currency/curencies-price`. For more info, access `/docs`.
 
 ## Technologies
-- Python 3.9
+- Python 3.11.9
 - FastApi - Framework
 - Motor - Asynchronous Python driver for MongoDB
 - Docker - Project Structure

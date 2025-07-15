@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     host: str
     port: int
 
-    service_name: str = "currency-exchange-api"
+    service_name: str = "coinverter-api"
     workers_count: int
 
     reload: bool
